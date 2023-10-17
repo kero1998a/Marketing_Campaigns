@@ -1,41 +1,43 @@
-***Project: Marketing Campaigns***
+##Project: Marketing Campaigns
 
-Problem Scenario: ‘Marketing mix’ is a popular concept used in implementing marketing strategies. A marketing mix includes multiple areas of focus as part of a comprehensive marketing plan. This all revolves around the four Ps of marketing - product, price, place, and promotion.
+we have a dataset related to marketing strategies and customer acquisition. The dataset contains information about different variables such as birth-year, education, income, product spending, sales channels, promotions, and more. The objective is to perform exploratory data analysis and hypothesis testing to understand the factors influencing customer acquisition.
 
-Problem Objective: As a data scientist, you should perform exploratory data analysis and hypothesis testing. The goal is to gain a better understanding of the various factors that contribute to customer acquisition.
+Here are the steps involved in performing the analysis:
 
-Data Description:
-The variables birth-year, education, income, and so on are related to the first 'P' or 'People' in the tabular data provided to the user. The amount spent on wine, fruits, gold, etc., is related to ‘Product’. The information pertinent to sales channels, like websites, stores, etc., is related to ‘Place’, and the fields which talk about promotions and results of different campaigns are related to ‘Promotion’.
+Import the data: Start by importing the dataset and check if the variables like 'Dt_Customer' and 'Income' are imported correctly.
 
-Steps to Perform:
+Missing value imputation: Some customers have missing income values. To address this, assume that customers with similar education and marital status have the same average yearly income. Clean the data and perform the missing value imputation based on these assumptions.
 
-•	Once data is imported, investigate variables like Dt_Customer and Income, etc., and check if they are imported correctly.
+Create additional variables: Generate new variables such as the total number of children, age, and total spending. The total purchases can be derived from the number of purchases made through the different sales channels.
 
-•	Income values for a few customers are missing. Perform missing value imputation. Assume that the customers with similar education and marital status make the same yearly income, on average. You may have to clean the data before performing this. For data cleaning, look into the categories of education and marital status. 
+Explore distributions and outliers: Create box plots and histograms to understand the distributions of variables and identify any outliers. Apply outlier treatment methods if necessary.
 
-•	Create variables to populate the total number of children, age, and total spending. 
+Encoding categorical variables: Use ordinal encoding and one-hot encoding techniques to handle different types of categorical variables in the dataset.
 
-Hint: From the number of purchases through the three channels, people can derive the total purchases.
+Correlation analysis: Create a heatmap to visualize the correlation between pairs of variables and understand their relationships.
 
-•	Create box plots and histograms to understand the distributions and outliers. Perform outlier treatment.
+Hypothesis testing: Test several hypotheses related to customer behavior. For example, examine if older people prefer in-store shopping, if customers with kids prefer online shopping, or if different distribution channels affect sales at the store. Also, analyze if the United States performs significantly better than other countries in terms of total purchases.
 
-•	Use ordinal encoding and one hot encoding according to different types of categorical variables.
+Visualization for analysis: Utilize appropriate visualizations to analyze various aspects such as the revenue performance of different products, the relationship between customer age and campaign acceptance rate, the country with the highest number of customers accepting the last campaign, the relationship between the number of children at home and total spending, and the education background of customers who lodged complaints in the last 2 years.
 
-•	Create a heatmap to showcase the correlation between different pairs of variables.
+## Check if Income has extreme outliers or not
+![image](https://github.com/kero1998a/Marketing_Campaigns/assets/24616273/3fab9aea-5cce-4840-a6ff-83052c42b478)
 
-•	Test the following hypotheses:
+##Remove outliers 
+![image](https://github.com/kero1998a/Marketing_Campaigns/assets/24616273/39e2df00-acd3-4ace-bba6-ad57e62aa845)
+![image](https://github.com/kero1998a/Marketing_Campaigns/assets/24616273/6b10067a-ec45-4fb4-b975-9a61fb0a1fd3)
 
-o	Older people are not as tech-savvy and probably prefer shopping in-store.
-o	Customers with kids probably have less time to visit a store and would prefer to shop online.
-o	Other distribution channels may cannibalize sales at the store.
-o	Does the US fare significantly better than the rest of the world in terms of total purchases?
+![image](https://github.com/kero1998a/Marketing_Campaigns/assets/24616273/1abf3c1e-c3ee-4900-a646-fd38ca0a9d53)
 
 
-•	Use appropriate visualization to help analyze the following:
+![download (11)](https://github.com/kero1998a/Marketing_Campaigns/assets/24616273/16df46a4-d05e-43cd-ac64-8b59a7bf5ed0)
 
-o	Which products are performing the best, and which are performing the least in terms of revenue?
-o	Is there any pattern between the age of customers and the last campaign acceptance rate?
-o	Which Country has the greatest number of customers who accepted the last campaign?
-o	Do you see any pattern in the no. of children at home and total spend?
-o	Education background of the customers who complained in the last 2 years.
+![image](https://github.com/kero1998a/Marketing_Campaigns/assets/24616273/53e1c021-f56e-4072-875a-96d6bc56c61e)
+
+
+![image](https://github.com/kero1998a/Marketing_Campaigns/assets/24616273/bc7627bd-2597-4c16-92d3-30272353fdd8)
+
+
+
+
 
