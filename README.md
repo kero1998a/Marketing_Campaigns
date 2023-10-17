@@ -1,4 +1,4 @@
-##Project: Marketing Campaigns
+**Project: Marketing Campaigns**
 
 we have a dataset related to marketing strategies and customer acquisition. The dataset contains information about different variables such as birth-year, education, income, product spending, sales channels, promotions, and more. The objective is to perform exploratory data analysis and hypothesis testing to understand the factors influencing customer acquisition.
 
@@ -26,16 +26,12 @@ Visualization for analysis: Utilize appropriate visualizations to analyze variou
 ##Remove outliers 
 ![image](https://github.com/kero1998a/Marketing_Campaigns/assets/24616273/39e2df00-acd3-4ace-bba6-ad57e62aa845)
 ![image](https://github.com/kero1998a/Marketing_Campaigns/assets/24616273/6b10067a-ec45-4fb4-b975-9a61fb0a1fd3)
-
 ![image](https://github.com/kero1998a/Marketing_Campaigns/assets/24616273/1abf3c1e-c3ee-4900-a646-fd38ca0a9d53)
-
-
 ![download (11)](https://github.com/kero1998a/Marketing_Campaigns/assets/24616273/16df46a4-d05e-43cd-ac64-8b59a7bf5ed0)
-
 ![image](https://github.com/kero1998a/Marketing_Campaigns/assets/24616273/53e1c021-f56e-4072-875a-96d6bc56c61e)
-
-
 ![image](https://github.com/kero1998a/Marketing_Campaigns/assets/24616273/bc7627bd-2597-4c16-92d3-30272353fdd8)
+![image](https://github.com/kero1998a/Marketing_Campaigns/assets/24616273/46493e86-076d-414c-b816-99f3c2c3369e)
+
 
 
 
