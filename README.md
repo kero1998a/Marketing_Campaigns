@@ -32,6 +32,13 @@ Visualization for analysis: Utilize appropriate visualizations to analyze variou
 ![image](https://github.com/kero1998a/Marketing_Campaigns/assets/24616273/b00889dc-fbeb-46e7-9415-318645c1d17e)
 ![image](https://github.com/kero1998a/Marketing_Campaigns/assets/24616273/a10cc803-3c2c-47ad-891b-3ab769bd3724)
 ![image](https://github.com/kero1998a/Marketing_Campaigns/assets/24616273/6c158801-9a43-4ab9-9e06-7ff905d3a547)
+![image](https://github.com/kero1998a/Marketing_Campaigns/assets/24616273/1caa3ddc-bdbd-4fed-88d1-9f6baaa20e96)
+
+![image](https://github.com/kero1998a/Marketing_Campaigns/assets/24616273/d07e938c-9060-495e-b4b7-3b1ccfb99eff)
+
+## @EngMay
+## @HessaAlrasheed
+
 
 
 
