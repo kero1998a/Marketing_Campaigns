@@ -36,8 +36,9 @@ Visualization for analysis: Utilize appropriate visualizations to analyze variou
 
 ![image](https://github.com/kero1998a/Marketing_Campaigns/assets/24616273/d07e938c-9060-495e-b4b7-3b1ccfb99eff)
 
-## @EngMay
-## @HessaAlrasheed
+
+https://github.com/HessaAlrasheed
+https://github.com/EngMay
 
 
 
